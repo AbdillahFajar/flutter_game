@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(const MyApp());
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -20,7 +24,7 @@ class GameScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Text(
-          'Welcome to Fruit Catcher',
+          'Welcome to Fruit Catcher', 
         ),
       )
     );
