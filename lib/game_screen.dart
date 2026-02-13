@@ -70,6 +70,17 @@ class _GameScreenState extends State<GameScreen> {
               ],
             ),
           ),
+          
+          //Tombol tambah skor dinamis, yaitu ketika diklik, skornya akan bertambah
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: ElevatedButton(
+              onPressed: () {
+                counter.value ++;
+              },
+              child: const Text('Tambah Skor'),
+            ),
+          )
         ],
       ),
     );
