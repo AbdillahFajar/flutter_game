@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Fruit Catcher Game',
       home: const GameScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
