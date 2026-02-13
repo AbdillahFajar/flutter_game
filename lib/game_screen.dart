@@ -15,6 +15,7 @@ class _GameScreenState extends State<GameScreen> {
   @override
   void initState() {
     super.initState();
+    game = FruitCatcherGame();
   }
 
   @override
